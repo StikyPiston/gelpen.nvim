@@ -13,6 +13,8 @@ end
 
 -- Ensure directory exists
 local function ensure_dir(path)
+    path = fn.expand(path)
+    path = fn.fnamemodify(path, ":p")
     if fn.isdirectory(path) == 0 then
         fn.mkdir(path, "p")
     end
