@@ -13,7 +13,9 @@ end
 
 -- Ensure directory exists
 local function ensure_dir(path)
-    fn.mkdir(path)
+    if not io.open(path, "r") then
+		fn.mkdir(path)
+    end
 end
 
 -- Open or create index.md
