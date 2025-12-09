@@ -1,6 +1,8 @@
 # gelpen.nvim
 
-**gelpen.nvim** is a *VimWiki*-like notetaking plugin for Neovim!
+![Configs using Gelpen](https://dotfyle.com/plugins/StikyPiston/Gelpen.nvim/shield?style=for-the-badge)
+
+**gelpen.nvim** (like gel pen) is a *VimWiki*-like notetaking plugin for Neovim!
 
 ## Installation
 
